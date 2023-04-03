@@ -33,11 +33,11 @@ screen -S nolus
 
 ## Go'yu yükleyin
 ```
-wget https://golang.org/dl/go1.19.2.linux-amd64.tar.gz
+wget https://golang.org/dl/go1.19.4.linux-amd64.tar.gz
 
-sudo tar -C /usr/local -xzf go1.19.2.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.19.4.linux-amd64.tar.gz
 
-rm go1.19.2.linux-amd64.tar.gz
+rm go1.19.4.linux-amd64.tar.gz
 
 export GOROOT=/usr/local/go
 
@@ -48,7 +48,7 @@ export GO111MODULE=on
 export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
 ```
 
-#### * Go versiyonunu kontrol edin. (Çıktı:`go version go1.19.2 linux/amd64`)
+#### * Go versiyonunu kontrol edin. (Çıktı:`go version go1.19.4 linux/amd64`)
 ```
 go version
 ```
