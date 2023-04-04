@@ -63,3 +63,16 @@ $HOME/.shardeum/shell.sh
 
 operator-cli gui start
 ```
+
+#### * Web tarayıcınıza gidin `https://localhost:8080/` adresini yapıştırın ve localhost yerine serverinizin IP'sini yazın. Login sayfası açıldığında kurulum sırasında belirlediğiniz şifreniz istenecektir.
+![login](https://user-images.githubusercontent.com/91866065/229783338-95415568-2b04-4d5d-9940-3f1efebce293.jpg)
+
+#### * Web tarayıcınızda Shardeum Validator Panel'inin "Overview" sayfasını görmelisiniz:
+![overview](https://user-images.githubusercontent.com/91866065/229783790-66ecb00e-09ee-4024-8c92-83e0100a8897.jpg)
+
+## Validator kurulumu
+
+#### * "Maintenance" sayfasına gidin, sonra üst sol taraftaki beyaz kutuda bulunan "Start Node" butonuna tıklayın. Daha sonra bekleyin ve sayfayı yenileyin. Eğer "Start Node" butonu yerine "Stop Node" yazıyorsa, node doğru bir şekilde çalışıyor demektir.
+![maintenance](https://user-images.githubusercontent.com/91866065/229784390-75a658d5-0ca8-4623-800f-85cf25c53943.jpg)
+
+#### * [Shardeum Betanet Faucet](https://faucet-sphinx.shardeum.org/) adresinden SHM talep edin. Son olarak sağdaki kutudan cüzdanınızı bağlayıp SHM stake edin. (Ayrıca Shardeum Discord'undan SHM talep edebilirsiniz.)
