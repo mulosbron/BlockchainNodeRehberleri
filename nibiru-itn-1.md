@@ -22,7 +22,7 @@ cd
 
 sudo apt update && sudo apt upgrade -y
 
-sudo apt-get install curl gcc make jq screen -y
+sudo apt-get install curl git make jq screen -y
 
 screen -S nibiru
 ```
