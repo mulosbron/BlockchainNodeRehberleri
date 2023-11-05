@@ -2,9 +2,12 @@
 ![availproject](https://github.com/mulosbron/BlockchainNodeRehberleri/assets/91866065/104abc83-017f-4214-88b8-84751cf075f4)
 
 ## Linkler:
+ * [Avail Resmi Websitesi](https://www.availproject.org/)
  * [Avail Resmi Twitter](https://twitter.com/AvailProject)
  * [Avail Resmi Discord](https://discord.gg/kkHAXZCNZa)
- 
+ * [Avail Light Node Dökümantasyon](https://docs.availproject.org/operate/node/light-client/)
+ * [Avail Light Node Form](https://docs.google.com/forms/d/e/1FAIpQLSeL6aXqz6vBbYEgD1cZKaQ4vwbN2o3Rxys-wKTuKySVR-oS8g/viewform)
+
 ## Minimum sistem gereksinimleri
 
 * 4GB RAM
@@ -28,7 +31,7 @@ screen -S avail-light-node
 
 #### * İşimiz bittiğinde screen'den çıkmak için CTRL+A+D tuş kombinasyonlarını kullanın. Screen'e tekrar girmek için `screen -r avail-light-node` kodunu kullanın.
 
-## Avail'i yükleyin
+## Avail Light Client'i yükleyin
 ```
 cd
 
@@ -64,5 +67,15 @@ EOF
 ```
 sudo systemctl daemon-reload && systemctl enable availd && sudo systemctl restart availd && journalctl -o cat -fu availd
 ```
+![image](https://github.com/mulosbron/BlockchainNodeRehberleri/assets/91866065/a9eb0f1e-e17f-4fd8-936b-71fa5e06f80c)
 
-## 
+## Loglar
+#### * Çalışan servisten logları görüntüleyin
+```
+journalctl -o cat -fu availd
+```
+
+#### * Light client tarafından işlenen en son blok numarasını döndürün
+```
+curl "http://localhost:7000/v1/latest_block"
+```
